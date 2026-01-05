@@ -1,21 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* sheard sytle */
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 45px;
 }
-.color-orange{
+
+.color-orange {
     color: #FD6E0A;
     font-weight: 800;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     padding: 18px 35px 19px 36px;
     border: none;
@@ -23,27 +27,71 @@
     font-size: 20px;
     font-weight: bold;
     color: #FFF8F3;
+    cursor: pointer;
 }
+
 /* main style */
-header{
+header {
     background-color: #FFF8F3;
+    background: url(../images/developer.png),url(../images/header_bg.png),#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
     padding-top: 50px;
 }
-nav{
+
+nav {
     width: 71%;
     max-width: 1140px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
-nav .menu{
+
+nav .menu {
     display: flex;
     list-style-type: none;
     gap: 51px;
     align-items: center;
 }
-nav  .menu a{
+
+nav .menu a {
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+#banner {
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .bnner-content {
+    max-width: 585px;
+}
+
+#banner .bnner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+#banner .bnner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .bnner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .bnner-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
